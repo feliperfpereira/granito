@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ungmG6kBYWFtAtXMhg/mSY+6V8UVu4Ic/wUY/TvcckDYQjWSVqfWAz9B9lwgW9ElulJQFak+4BaPyjhvZyr1kQ==",
+  "dgSpecHash": "N85z5NfDyvwmrDZ48+fAC5N3IoKoNOvnoeCnjDHYfHZWi3CNTc94fndw2vrGBUrARsDbZzntKGdbqsv1PQVqMA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj",
+  "projectFilePath": "c:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felipe.fonseca\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\felipe.fonseca\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

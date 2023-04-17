@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SYCbCDkDs2k21ny87mvvw+6FXzvXhdRngecBTekLeYr5nznbSknNc7YYygVKZmGsoPlgEdM0zQdm9FlPuPgKOw==",
+  "dgSpecHash": "6Ewqfv0cydeDiSTIEhKvw1vP0Dedr5G0Xu3aqusM4A6gJEoRBup15D4LG9mZ6b5PTUPIAQEDxrIbp69jzRwy5Q==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Calculo\\granito\\Tests\\Tests.csproj",
+  "projectFilePath": "c:\\Projetos\\Calculo\\granito\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felipe.fonseca\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\felipe.fonseca\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

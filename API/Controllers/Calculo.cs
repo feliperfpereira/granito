@@ -7,6 +7,7 @@ using System.Globalization;
 
 namespace Calculo.Controllers;
 
+
 [ApiController]
 [Route("[controller]")]
 public class CalculoController : ControllerBase

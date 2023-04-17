@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj": {}
+    "c:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj": {
+    "c:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj",
+        "projectUniqueName": "c:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj",
         "projectName": "Calculo",
-        "projectPath": "C:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj",
+        "projectPath": "c:\\Projetos\\Calculo\\granito\\API\\Calculo.csproj",
         "packagesPath": "C:\\Users\\felipe.fonseca\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Calculo\\granito\\API\\obj\\",
+        "outputPath": "c:\\Projetos\\Calculo\\granito\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felipe.fonseca\\AppData\\Roaming\\NuGet\\NuGet.Config"
