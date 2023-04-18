@@ -43,15 +43,12 @@ namespace Calculo.Repo
         {
             using (var client = new HttpClient())
             {
-                var response = await client.GetAsync("http://host.docker.internal:5001/Juros");
+                //var response = await client.GetAsync("http://host.docker.internal:5001/Juros");
+                var response = await client.GetAsync("http://ip172-18-0-5-cgv9p2ae69v000941i80-5001.direct.labs.play-with-docker.com/Juros");
                 response.EnsureSuccessStatusCode();
                 var responseBody = await response.Content.ReadAsStringAsync();
                 return responseBody;
             }
-        }
-        public async Task<string?> ShowMeTheCode()
-        {
-            return "ffdffds";
         }
 
     }

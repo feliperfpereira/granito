@@ -32,26 +32,13 @@ public class CalculoController : ControllerBase
         calculo.valorinicial = valorinicial;
         var final = await _calculoRepo.CalculaJuros(calculo);
         return Ok(final);
-        // // Obtém o valor do juros da configuração
-        // string txJuros = _config["TaxaJuros"];
-        // decimal juros = decimal.Parse(txJuros, CultureInfo.InvariantCulture);
-
-        // // Calcula o valor final com juros compostos
-        // decimal valorfinal = valorinicial * (decimal)Math.Pow((double)(1 + juros), meses);
-
-        // // Trunca o resultado em duas casas decimais
-        // valorfinal = Math.Truncate(valorfinal * 100) / 100;
-
-        // // Retorna o valor final como resposta
-        // return Ok(valorfinal.ToString("F2", CultureInfo.InvariantCulture));
-
     }
 
     [HttpGet("showmethecode")]
     public IActionResult ShowMeTheCode()
     {
         // Obtém a URL do GitHub da configuração
-        string urlGitHub = ";";
+        string urlGitHub = "GitHub: https://github.com/feliperfpereira/granito\nDocker: https://hub.docker.com/repository/docker/feliperfpereira/api";
 
         // Retorna a URL do GitHub como resposta
         return Ok(urlGitHub);

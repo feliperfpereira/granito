@@ -6,7 +6,6 @@ namespace Calculo.Repo
     {
         Task<string> CalculaJuros(CalculoDados dados);
         Task<string?> GetJuros();
-        Task<string?> ShowMeTheCode();
 
     }
 }
