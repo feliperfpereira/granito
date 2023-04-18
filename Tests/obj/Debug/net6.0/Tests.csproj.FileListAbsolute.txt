@@ -360,3 +360,11 @@ C:\Users\felip\Repo\granito\Tests\bin\Debug\net6.0\Calculo.pdb
 C:\Users\felip\Repo\granito\Tests\obj\Debug\net6.0\Tests.csproj.CopyComplete
 C:\Users\felip\Repo\granito\Tests\obj\Debug\net6.0\Tests.genruntimeconfig.cache
 C:\Users\felip\Repo\granito\Tests\obj\Debug\net6.0\ref\Tests.dll
+C:\Projetos\Calculo\granito\Tests\bin\Debug\net6.0\Debug\net6.0\appsettings.Development.json
+C:\Projetos\Calculo\granito\Tests\bin\Debug\net6.0\Debug\net6.0\appsettings.json
+C:\Projetos\Calculo\granito\Tests\bin\Debug\net6.0\Debug\net6.0\Calculo.deps.json
+C:\Projetos\Calculo\granito\Tests\bin\Debug\net6.0\Debug\net6.0\Calculo.runtimeconfig.json
+C:\Projetos\Calculo\granito\Tests\bin\Debug\net6.0\Debug\net7.0\appsettings.Development.json
+C:\Projetos\Calculo\granito\Tests\bin\Debug\net6.0\Debug\net7.0\appsettings.json
+C:\Projetos\Calculo\granito\Tests\bin\Debug\net6.0\Debug\net7.0\Calculo.deps.json
+C:\Projetos\Calculo\granito\Tests\bin\Debug\net6.0\Debug\net7.0\Calculo.runtimeconfig.json
