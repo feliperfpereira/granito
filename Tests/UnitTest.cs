@@ -1,4 +1,5 @@
-using Calculo.Controllers;
+using Calculo.Repo;
+using Calculo.Models;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -14,14 +15,15 @@ namespace Tests;
 public class UnitTest
 {
 
-    private readonly CalculoController _calculoController;
+    private readonly ICalculoRepo _calculoRepo;
 
     public UnitTest()
     {
-        var mockRepo = new Mock<IConfiguration>();
-        mockRepo.SetupGet(x => x[It.Is<string>(s => s == "TaxaJuros")]).Returns("0.01");
+        //var mockRepo = new Mock<IConfiguration>();
+        //mockRepo.SetupGet(x => x[It.Is<string>(s => s == "TaxaJuros")]).Returns("0.01");
 
-        _calculoController = new CalculoController(mockRepo.Object);
+        //_calculoRepo = new CalculoRepo(mockRepo.Object);
+        _calculoRepo = new CalculoRepo();
 
     }
 
@@ -30,15 +32,16 @@ public class UnitTest
     public async Task CalculaJuros_Endpoint_DeveRetornarValorCalculado()
     {
         // Arrange
-        var valorInicial = 100m;
-        var meses = 5;
+        CalculoDados calculo = new CalculoDados();
+        calculo.meses = 5;
+        calculo.valorinicial = 100m;
 
         // Act
-        var result = await _calculoController.CalculaJuros(valorInicial, meses) as OkObjectResult;
+        var result = await _calculoRepo.CalculaJuros(calculo);
 
         // Assert
         Assert.NotNull(result);
-        Assert.IsType<OkObjectResult>(result);
-        Assert.Equal("105.10", result.Value);
+        //Assert.IsType<OkObjectResult>(result);
+        Assert.Equal("105.10", result);
     }
 }

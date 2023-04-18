@@ -25,7 +25,7 @@
   </ItemGroup>
 
    <ItemGroup>
-    <ProjectReference Include="..\API\Calculo.csproj" />
+    <ProjectReference Include="..\API\Calculo\Calculo.csproj" />
   </ItemGroup>
 
 
